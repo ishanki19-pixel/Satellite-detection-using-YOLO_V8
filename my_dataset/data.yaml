@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Satellites revolving around earth']
+
+roboflow:
+  workspace: ishanki-verma-nfgyj
+  project: object-detection-s5qu9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ishanki-verma-nfgyj/object-detection-s5qu9/dataset/1
